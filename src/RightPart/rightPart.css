@@ -1,0 +1,23 @@
+.RightSlides{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.slider{
+    height: 100% !important;
+}
+
+.slideTitle{
+    text-align: center;
+    height: 7%;
+}
+
+.contentPart{
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    height: 95%;
+}

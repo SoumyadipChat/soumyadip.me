@@ -1,0 +1,33 @@
+.TextBox{
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 70%;
+    height: 80%;
+}
+.LargeText{
+    width: 20%;
+    font-size: 4vh;
+    font-weight: 900;
+   
+}
+
+.MediumText{
+    padding-top: 4%;
+    width: 90%;
+    font-size: 2vh;
+}
+.icons{
+    padding-top: 7%;
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30%;
+}
+
+.Para{
+   margin: 0;    
+}
