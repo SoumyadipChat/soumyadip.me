@@ -11,6 +11,15 @@
    
 }
 
+.brownCol{
+    color: maroon;
+}
+
+.blueColor{
+    color: #1d81ce;
+    font-weight: 500;
+}
+
 .MediumText{
     padding-top: 4%;
     width: 90%;

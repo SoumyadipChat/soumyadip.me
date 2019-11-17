@@ -3,11 +3,12 @@ import React from 'react';
 import Skills from './Skills/skills';
 import Projects from'./Projects/projects';
 import Experience from './Experience/experience'
+import OSM from './OSM/osm'
 
 export default [
 	{
 		title: 'One Stop Music',
-		component: <Skills/>,
+		component: <OSM/>,
 		bgColor:"#005ba9",
 	},
 	{
@@ -25,5 +26,6 @@ export default [
 		component: <Experience/>,
 		bgColor:"#e53935",
 	},
+	
 	
 ];

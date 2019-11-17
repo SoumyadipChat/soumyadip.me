@@ -3,8 +3,8 @@ import './experience.css';
 
 function Experience() {
   return (
-    <div className="App">
-      Hello from Experience
+    <div className="exp">
+      Coming Soon!!!
     </div>
   );
 }

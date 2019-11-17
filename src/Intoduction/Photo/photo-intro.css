@@ -26,6 +26,34 @@
     font-weight: 500;
 }
 
+.HeyButton{
+    width: 65%;
+    height: 5vh;
+    margin-top: 3%;
+    padding-top: 0.75vh;
+    position: absolute;
+    right: 0%;
+    background: #7fc24e;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Hey{
+    text-align: left;
+    width: 60%;
+}
+
+.waicon{
+    height: 4vh;
+    width: 30%;
+}
+
+.lastname{
+    color: maroon;
+    font-weight: 600;
+}
+
 .contact{
     margin-top: 0px;
     margin-bottom: -1vh;

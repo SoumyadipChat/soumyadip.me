@@ -3,8 +3,8 @@ import './projects.css';
 
 function Projects() {
   return (
-    <div className="App">
-      Hello from Projects
+    <div className="projects">
+       Coming Soon!!!
     </div>
   );
 }
