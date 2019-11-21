@@ -17,15 +17,16 @@ export default [
 		bgColor:"#f4b93d",
 	},
 	{
+		title: 'Experience',
+		component: <Experience/>,
+		bgColor:"#c392cc",
+	},
+	{
 		title: 'Projects',
 		component: <Projects/>,
 		bgColor:"#eabad8",
 	},
-	{
-		title: 'Experience',
-		component: <Experience/>,
-		bgColor:"#e53935",
-	},
+	
 	
 	
 ];

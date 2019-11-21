@@ -15,12 +15,12 @@
 
 .contentPart{
     margin-top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
 .center{
-    height: 100vh;
+    height: 100%;
 }
 
 .slider a.nextButton,.previousButton{
@@ -31,7 +31,7 @@
 
 .navDots{
     position: absolute;
-    top: 93vh;
+    top: 93%;
     width: 60%;
     height: 7vh;
     background: transparent;
@@ -41,19 +41,19 @@
 
 @media (max-aspect-ratio: 12/9){
     .navDots{
-        top: 193vh;
+        top: 193%;
         width: 100%;
     }
 }
 
 .dot{
-    width: 2.5vh;
-    height: 2.5vh;
-    margin-top: 1.5vh;
+    width: 1.5vh;
+    height: 1.5vh;
+    margin-top: 2vh;
     margin-left: 1%;
     border-radius: 2vh;
     margin-right: 1%;
-    background: #64ffdbea;
+    background: #64ffdba1;
     border: 2px solid black;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .dot.act{
-    background: rgb(245, 0, 245);
+    background: rgba(1, 16, 20, 0.781);
 }
 
 .navIc{

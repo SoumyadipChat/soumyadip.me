@@ -1,0 +1,61 @@
+.MSProjs{
+    width: 100%;
+    height: 100%;
+}
+
+.projTile{
+    width: 100%;
+    height: 60%;
+}
+
+.projHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projPoints{
+    margin: 1vh;
+}
+
+.headerText{
+    width: 75%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    color: #002750;
+}
+
+.HeaderMain{
+    font-size: 3vh;
+    font-weight: 700;
+    color: black;
+}
+
+.hdrIcon{
+    padding-right: 3%;
+    width: 8%;
+}
+
+.boldFont{
+    font-weight: bold;
+}
+
+.projDesc{
+    padding-top: 2%;
+    font-size: 2vh;
+}
+
+@media (max-aspect-ratio: 12/9){
+    .projTile{
+        height: 85%;
+    }
+
+    .hdrIcon{
+        width: 16%;
+        
+    }
+
+    .projDesc{
+        padding-top: 4%;
+    }
+}

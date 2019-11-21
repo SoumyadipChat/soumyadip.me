@@ -40,3 +40,12 @@
 .Para{
    margin: 0;    
 }
+
+@media (max-aspect-ratio: 12/9){
+    .TextBox{
+        width: 80%;
+    }
+    .MediumText{
+        width: 100%;
+    }
+}

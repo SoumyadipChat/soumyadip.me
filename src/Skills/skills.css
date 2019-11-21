@@ -1,13 +1,155 @@
 .skills{
     width: 100%;
     height:100%;
-    padding-top: 10%;
     text-align: center;
+}
+
+.skillsHeader{
+    line-height: 12vh;
+    font-size: 5vh;
+    font-family: 'Calistoga', cursive; 
+}
+
+.skillIndv{
+    width: 40%;
+    padding-left: 5%;
+    height: 40%;
+    padding-top: 3%;
+    padding-right: 5%;
+    position: relative;
+}
+
+.skillDesc{
+    padding-top: 1%;
+    font-size: 2vh;
+}
+
+.skillIc{
+    height: 7vh;
+}
+
+.expandSkill{
+    position: absolute;
+    bottom: 1vh;
+    height: 4vh;
+    font-size: 2.5vh;
+    padding-top: 0.5vh;
+    font-weight: 600;
+    color: white;
+    width: 40%;
+    left: 30%;
+    background: rgba(109, 1, 1, 0.808);
+    border-radius: 5vh;
+}
+
+.skillHeader{
+    font-size: 3vh;
+    font-weight: bold;
+    color: #033e6b;
+    padding-top: 2vh;
+}
+
+.congestedSkills{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expandedSkill{
+    padding-top: 10%;
+    height: 65%;
+    width: 90%;
+    padding-left: 5%;
+    text-align: left;
+    position: relative;
+}
+
+.expandedHeader{
+    display: flex;
+    justify-content: flex-start;
+    height: 12vh;
+}
+
+.expandSkill.collapse{
+    width: 15%;
+    left: 75%;
+    text-align: center;
+}
+
+.skillIcEx{
+    padding-top: 2vh;
+    height: 8vh;
+}
+.skillHederEx{
+    padding-top: 2vh;
+    width: 70%;
+    padding-left: 3%;
+    line-height: 8vh;
+    font-size: 3vh;
+    font-weight: 700;
+    color: #033e6b;
+}
+.skillLongDesc{
+    width: 70%;
+    padding-left: 5%;
+    font-size: 2.5vh;
+}
+
+.expDesc{
+    margin: 1vh;
+    font-weight: 600;
+}
+
+.expDesc.point{
+    padding-left: 2%;
+    font-weight: 400;
+    font-size: 2.2vh;
 }
 
 
 @media (max-aspect-ratio: 12/9){
-    .scrsht{
-        margin-left: 2vh;
+    .skillHeader{
+        font-size: 2.2vh;
+        padding-top: 1vh;
+    }
+    .skillDesc{
+        font-size: 1.8vh;
+        padding-top: 0.8vh;
+    }
+    .skillIndv{
+        padding-right: 2.5%;
+        width: 42%;
+        padding-top: 7%;
+    }
+    .expandSkill{
+        bottom: 0;
+        height: 3.5vh;
+        font-size: 2vh;
+        padding-top: 0.8vh;
+        left: 32.5%;
+    }
+    .skillsHeader{
+        line-height: 10vh;
+        font-size: 4vh;
+    }
+    .skillIcEx{
+        padding-left: 3%;
+    }
+    .expandedSkill{
+        width: 93%;
+        height: 70%;
+    }
+    .skillLongDesc{
+        width: 85%;
+        font-size: 2vh;
+    }
+    .expandSkill.collapse {
+        width: 25%;
+        left: 65%;
+        text-align: center;
+    }
+    .expDesc.point{
+        font-size: 1.8vh;
     }
 }

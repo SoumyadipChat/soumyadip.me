@@ -101,4 +101,17 @@
     .scrsht{
         height: 40vh;
     }
+
+    .Header{
+        font-size: 4.5vh;
+    }
+    
+    .techstack{
+        font-size: 1.3vh;
+    }
+    
+    .desc{
+        font-size: 1.7vh;
+    }
+    
 }

@@ -28,7 +28,7 @@ function OSM() {
                     One.Stop.Music
             </div>
             <div className="techstack">
-                    TECH STACK: Angular 6, Java Spring-Boot, Postgres SQL, Android Studio
+                    TECH STACK: Angular 6, Java Spring-Boot, PostgreSQL, Android Studio
             </div>
             <div className="desc">
                     Audio Player available as Android app and Web app. 
