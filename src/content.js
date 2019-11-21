@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Skills from './Skills/skills';
-import Projects from'./Projects/projects';
+import About from'./About/about';
 import Experience from './Experience/experience'
 import OSM from './OSM/osm'
 
@@ -23,7 +23,7 @@ export default [
 	},
 	{
 		title: 'Projects',
-		component: <Projects/>,
+		component: <About/>,
 		bgColor:"#eabad8",
 	},
 	
